@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class feladat1 {
 
     public int sum(int a, int b) {
@@ -14,6 +17,7 @@ public class feladat1 {
 
     private int[] array1 = {1, 2, 3};
     private int[] array2 = {1, 2, 3};
+    private List<String> list = new ArrayList<>(List.of("hello", "world"));
 
     public int[] getArray1() {
         return array1;
@@ -21,5 +25,9 @@ public class feladat1 {
 
     public int[] getArray2() {
         return array2;
+    }
+
+    public List<String> getList() {
+        return list;
     }
 }
